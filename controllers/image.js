@@ -7,7 +7,7 @@ const Clarifai = require('clarifai');
 const handleApiCall = (req, res) => {
   app.models
   
-    .predict('f76196b43bbd45c99b4f3cd8e8b40a8a', req.body.input)
+    .predict('a7ab2517c6e24364a479cd42d405e714', req.body.input)
     .then(data => {
       res.json(data);
     })
